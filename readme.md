@@ -4,7 +4,6 @@
 
 ## Illustration 📸
 ![desktop illustration](assets/img/screenshot1.png)
-![desktop illustration](assets/img/screenshot2.png)
 
 
 ## Language/tools 🛠
