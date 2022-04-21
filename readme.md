@@ -20,6 +20,7 @@
 
 ### ⚙️ Launch 
 - Open with Live Server 
+- Deployed with Netlify and visible here : https://portfoliobtsaureliasegarra.netlify.app
 
 
 ## Status 🎯
