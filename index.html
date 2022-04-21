@@ -152,7 +152,9 @@
                     <img src="assets/img/photo.png" alt="" class="about__img">
 
                     <div class="about__data">
-                        <p class="about__description">Passionnée par l'expérience utilisateur, je développe des applications web fonctionnelles et esthétiques basées sur React, Vue.js et Node.js. 
+                        <p class="about__description">👋 Après sept années d'expériences en tant qu'infirmière, j’ai donné un 
+                            nouveau tournant à ma carrière pour me diriger vers ce qui me passionne 
+                            au quotidien : le développement d’applications web. Passionnée par l'expérience utilisateur, je développe des applications fonctionnelles et esthétiques basées sur React, Vue.js et Node.js. 
 
 
                         </p>
@@ -454,7 +456,7 @@
             <!--==================== SERVICES ====================-->
             <section class="services section" id="services">
                 <h2 class="section__title">Projets</h2>
-                <span class="section__subtitle">Réalisations pendant le BTS</span>
+                <span class="section__subtitle">Réalisations pendant mon BTS SIO SLAM</span>
 
                 <div class="services__container container grid">
                     <!--=============== SERVICES 1 ===============-->
@@ -476,7 +478,7 @@
                                 <ul class="services__modal-services grid">
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Application pour simplifier la recherche d'un stage</p>
+                                        <p>Application bureau pour simplifier la recherche de stage en entreprise</p>
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
@@ -484,7 +486,13 @@
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Frontend JavaFX et Scene builder</p>
+                                        <p>Front-end JavaFX et Scene builder</p>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="uil uil-check-circle services__modal-icon"></i>
+                                            Lien vers le Repo Github
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -527,7 +535,13 @@
                                     </li>
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Fronten HTML5 et CSS3</p>
+                                        <p>Front-end HTML5 et CSS3</p>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="uil uil-check-circle services__modal-icon"></i>
+                                            Lien vers le Repo Github
+                                        </a>
                                     </li>
                                    
                                 </ul>
@@ -629,6 +643,22 @@
                                 </a>
                             </div>
                         </div>
+
+                        <!--=============== PORTFOLIO 4 ===============-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio4.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Portfolio BTS SIO SLAM</h3>
+                                <p class="portfolio__description">Création d'un portfolio illustrant le travail de l'année de BTS.</p>
+                                <a href="https://github.com/aureliasegarra/portfolioV3" class="button button--flex button--small portfolio__button">
+                                    Repo Github
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                         
                     </div>
 
                     <div class="swiper-button-next">
@@ -642,7 +672,7 @@
                 </div>
             </section>
 
-             <!--==================== SERVICES ====================-->
+             <!--==================== VEILLE ====================-->
              <section class="services section" id="veille">
                 <h2 class="section__title">Veille Technologique</h2>
                 <span class="section__subtitle">Progressive Web Apps</span>
@@ -718,27 +748,27 @@
                         </div>
                     </div>
 
-                    <form action="" class="contact__form grid">
+                    <form action="https://getform.io/f/f6f2f3aa-121e-444c-a4bb-dedcfe3a8250" method="POST" class="contact__form grid">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
-                                <label for="" class="contact__label">Nom</label>
-                                <input type="text" class="contact__input">
+                                <label class="contact__label">Nom</label>
+                                <input type="text" name="name" class="contact__input">
                             </div>
                             <div class="contact__content">
-                                <label for="" class="contact__label">Email</label>
-                                <input type="email" class="contact__input">
+                                <label class="contact__label">Email</label>
+                                <input type="email" name="email" class="contact__input">
                             </div>
                         </div>
                         <div class="contact__content">
-                            <label for="" class="contact__label">Message</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            <label class="contact__label">Message</label>
+                            <textarea name="" id="" name="message" cols="0" rows="7" class="contact__input"></textarea>
                         </div>
                         
                         <div>
-                            <a href="#" class="button button--flex">
-                                Envoyer
-                                <i class="uil uil-message button__icon"></i>
-                            </a>
+                            <button type="submit" class="button button--flex">
+                                Envoyer <i class="uil uil-message button__icon"></i>
+                            </button>
+                            
                         </div>
                     </form>
                 </div>
